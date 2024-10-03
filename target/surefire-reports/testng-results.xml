@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T17:19:17 IST" name="APISuite" finished-at="2024-10-03T17:19:27 IST" duration-ms="9655">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T17:19:17 IST" name="Test" finished-at="2024-10-03T17:19:27 IST" duration-ms="9655">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:17 IST" name="setUpReport" finished-at="2024-10-03T17:19:17 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:17 IST" name="setupData" finished-at="2024-10-03T17:19:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:17 IST" name="beforeMethod" finished-at="2024-10-03T17:19:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestWLLPostUser()[pri:1, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:17 IST" name="TestWLLPostUser" finished-at="2024-10-03T17:19:21 IST" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWLLPostUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:21 IST" name="afterMethod" finished-at="2024-10-03T17:19:21 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:21 IST" name="beforeMethod" finished-at="2024-10-03T17:19:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestWLLGetUser()[pri:2, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:21 IST" name="TestWLLGetUser" finished-at="2024-10-03T17:19:22 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWLLGetUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:22 IST" name="afterMethod" finished-at="2024-10-03T17:19:22 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TestWLLUpdateUser()[pri:3, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:22 IST" name="TestWLLUpdateUser" finished-at="2024-10-03T17:19:24 IST" duration-ms="2424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWLLUpdateUser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:22 IST" name="beforeMethod" finished-at="2024-10-03T17:19:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:24 IST" name="afterMethod" finished-at="2024-10-03T17:19:24 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:24 IST" name="beforeMethod" finished-at="2024-10-03T17:19:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestWllLogout()[pri:4, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:24 IST" name="TestWllLogout" finished-at="2024-10-03T17:19:26 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWllLogout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:26 IST" name="afterMethod" finished-at="2024-10-03T17:19:26 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.test.UserTests@47af7f3d]" started-at="2024-10-03T17:19:26 IST" name="tearDownReport" finished-at="2024-10-03T17:19:27 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Test -->
+  </suite> <!-- APISuite -->
+</testng-results>
