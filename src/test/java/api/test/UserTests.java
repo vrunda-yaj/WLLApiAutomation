@@ -1,5 +1,6 @@
 package api.test;
 
+import static org.hamcrest.Matchers.equalTo;
 import static org.testng.Assert.assertEquals;
 
 import java.util.HashMap;
@@ -146,7 +147,34 @@ public class UserTests {
 	        }
 			
 		}
+	
+	 
 	 @Test(priority=4)
+	 public void TestWllJobCancel()
+	 {
+		 try {
+	            test = extent.createTest("TestWllJobCancel");
+	            Response response=UserEndPoints.WLJobcancelReason(auth_token);
+			response.then()
+			.statusCode(200)			
+			.body("success",equalTo(true))
+			.body("data[0].id", equalTo("d4ed8b82-d13b-4fd8-9fc1-064012f91466"))
+			.body("data[0].reason", equalTo("Sick / Medical Reason"))
+			.body("data[1].id", equalTo("19797534-c1ff-4518-8bad-35bf1cc931c7"))
+			.body("data[1].reason", equalTo("Other"))
+			.body("data[2].id", equalTo("d8464f87-ed67-4acb-af13-6a1e735f6957"))
+			.body("data[2].reason", equalTo("Scheduling Problem"));
+			
+			
+	        } catch (Exception e) {
+	            test.fail("TestWllJobCancel failed: " + e.getMessage());
+	            throw e;
+	        }
+		
+			
+	 }
+	 
+	 @Test(priority=5)
 	 public void TestWllLogout()
 	 {
 		 try {

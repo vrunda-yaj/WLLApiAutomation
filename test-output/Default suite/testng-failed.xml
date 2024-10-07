@@ -5,8 +5,12 @@
     <classes>
       <class name="api.test.UserTests">
         <methods>
-          <include name="TestWLLUpdateUser"/>
+          <include name="afterMethod"/>
+          <include name="tearDownReport"/>
           <include name="setupData"/>
+          <include name="beforeMethod"/>
+          <include name="TestWllJobCancel"/>
+          <include name="setUpReport"/>
         </methods>
       </class> <!-- api.test.UserTests -->
     </classes>

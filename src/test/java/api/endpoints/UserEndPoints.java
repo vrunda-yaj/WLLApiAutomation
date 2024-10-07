@@ -68,6 +68,17 @@ public class UserEndPoints {
 		
 	}
 	
+	public static Response WLJobcancelReason(String authToken)
+	{
+		Response response = given()
+				 .header("x-api-key", "4sbXBT2xSc6jc6Y70DVctQJct4dt1SI5MLj2ItSvf")
+		            .contentType("application/json")
+					.header("Authorization","Bearer "+authToken)			
+		.when()
+		.get(Routes.wllljobcancel_url);
+		return response;
+		
+	}
 	/*
 	public static Response deleteUser(String userName,UserPojo payload)
 	{

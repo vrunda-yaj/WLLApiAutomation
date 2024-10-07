@@ -13,4 +13,6 @@ public class Routes {
 	public static String wllupdate_url="https://api.dev.weloveliving.com/api/v1/user/update-profile";
 	
 	public static String wlllogout_url="https://api.dev.weloveliving.com/api/v1/user/logout";
+	
+	public static String wllljobcancel_url="https://api.dev.weloveliving.com/api/v1/job-cancelation-reason";
 }
